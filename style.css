@@ -1,9 +1,33 @@
+html {
+    display: block;
+    background-color:black
+}
+
+
 h1 {
     text-align: center;
     background-color: black;
     color: white;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+}
+
 nav {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+   vertical-align: bottom; 
+   display: flex;
+}
+
+nav li {
+    padding-left: 1rem;
+    list-style-type: none;
+    display: flex;
+    color: white
 }
