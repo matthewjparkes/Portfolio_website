@@ -6,12 +6,13 @@ html {
     
 }
 body {
-    max-width: 900px;
+    max-width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
 
 }
+
 
 
 h1 {
@@ -79,117 +80,18 @@ main {
 
 
 
-#journey_board_container{
-
-    min-width: 600px;
-    max-width: 900px;
-    display: block;
-    box-sizing: border-box;
-    position: relative;
-    padding-top: 1000px;
-
-}
-
-
-
-.waypoints {
+.Paragraph_block {
     background-color: white;
     color: black;
-    width: 100px;
-    height: 100px;
     box-sizing: border-box;
-    font-size: 1.5em;
-    text-align: justify;
-    align-items: center;
+    border-width: 10px;
+    margin-right:100px;
+    border-radius:1%;
+    margin-bottom: 50px;
     padding: 10px;
-    z-index: 2; 
-}
-
-.waypoints p {
-    text-align: center;
-    align-items: center;
-    z-index: 1;
-}
-
-#step1 {
-    margin-left: 35rem;
-    Z-index: 2;
-}
-
-#step2 { 
-    margin-top: 20rem;
-    Z-index: 2;
-}
-
-#step3{
-    margin-top: 20rem;
-    margin-left: 35rem;
-    Z-index: 2;
-}
-#step4{
-    margin-top: 20rem;
-    margin-bottom: 10rem;
-    Z-index: 2;
-}
-
-.Journey_text{
     text-align: center;
 }
 
-#step1_text {
-    position:absolute;
-    top: 325px
-
-
-}
-
-#step2_text {
-    position:absolute;
-    top: 435px;
-    right: 250px;
-
-}
-
-#step3_text {
-    position:absolute;
-    top: 850px;
-    
-
-}
-
-#step4_text {
-    position:absolute;
-    top:1285px;
-    right: 150px;
-    
-
-}
-
-#moving_piece{
-    height: 75px;
-    width: 75px;
-    top: 325px;
-    right: 250px;
-    border-radius: 50%;
-    background-color: grey;
-    transition-property: top, right;
-    transition-duration: 1s;
-    position: absolute;
-}
-
-#step1_image {
-    height: 85px;
-    width: 85px;
-    top: 325px;
-    right: 235px;
-    z-index: -1;
-    position: absolute;
-    transform: rotate(35deg);
-    visibility: hidden; 
-    transition-property: right, visibility;
-    transition-duration: 1s;
-
-}
 
 #Intro_text{
     position: relative;
@@ -197,5 +99,100 @@ main {
     text-align: center;
     align-items: center;
     top:10px;
-    height:300px;
+    margin-bottom: 50px;
+   
+}
+
+#Assyrian1{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 150px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+   
+}
+
+
+#Assyrian2{
+    position: absolute;
+    height: 100px;
+    width: 75px;
+    top: 250px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+   
+}
+
+#Raindrop{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 775px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+}
+
+
+#UCL1{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 325px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+}
+#Maki{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 500px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+}
+
+#SQL{
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    top: 850px;
+    right: 100px;
+    transition: right;
+    transition-duration: 2s;
+    z-index: -1;
+}
+
+.Images{
+    z-index: -1;
+}
+
+.ProjectTab{
+    border: 10px;
+    border-color: white;
+}
+
+#Contact_page{
+    display: flex;
+    
+}
+
+#details{
+    text-align: right;
+    box-sizing: border-box;
+    float: right;
+    margin-left: auto;
+}
+
+#details a{
+    text-decoration: underline;
 }
