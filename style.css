@@ -72,29 +72,25 @@ nav li {
 }
 
 main {
-    top: 100px;
+    display: block;
     position: relative;
     z-index: 1;
 }
 
-.journey_board {
-    
-    min-width: 600px;
-    max-width: 900px;
-    display: block;
-    box-sizing: border-box;
-    padding-top: 250px;
-}
 
-#journey_board{
+
+#journey_board_container{
 
     min-width: 600px;
     max-width: 900px;
     display: block;
     box-sizing: border-box;
-    padding-top: 250px;
+    position: relative;
+    padding-top: 1000px;
 
 }
+
+
 
 .waypoints {
     background-color: white;
@@ -142,7 +138,7 @@ main {
 
 #step1_text {
     position:absolute;
-    top: 10px;
+    top: 325px
 
 
 }
@@ -172,7 +168,7 @@ main {
 #moving_piece{
     height: 75px;
     width: 75px;
-    top: 10px;
+    top: 325px;
     right: 250px;
     border-radius: 50%;
     background-color: grey;
@@ -184,7 +180,7 @@ main {
 #step1_image {
     height: 85px;
     width: 85px;
-    top: 5px;
+    top: 325px;
     right: 235px;
     z-index: -1;
     position: absolute;
@@ -196,8 +192,10 @@ main {
 }
 
 #Intro_text{
-    position: absolute;
+    position: relative;
     display: block;
     text-align: center;
+    align-items: center;
     top:10px;
+    height:300px;
 }

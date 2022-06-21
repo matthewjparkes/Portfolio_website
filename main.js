@@ -18,7 +18,7 @@ document.addEventListener('scroll', function(){
     impImage.style.right = "240px";
     impImage.style.visibility = "hidden";
  } else if (lastknownscrollposition <= 100){
-    JourneyMovement("10px", "250px");
+    JourneyMovement("325px", "250px");
     impImage.style.right = "175px";
     impImage.style.visibility = "visible";
  } else if (lastknownscrollposition >= 400 && lastknownscrollposition < 800){
